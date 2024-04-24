@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: "Open Graph Description",
     images: [
       {
-        url: "/facebook.svg",
+        url: "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
         width: 800,
         height: 600,
         alt: "Open Graph Image",
