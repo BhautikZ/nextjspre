@@ -7,21 +7,24 @@ import Footer from "./signin/components/main/Footer";
 import CustomHead from "./signin/components/customhead";
 
 const inter = Inter({ subsets: ["latin"] });
-
+const openGraphImage = {
+  images: ["https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"],
+};
 export const metadata: Metadata = {
   title: "Home Page Title",
   description: "Description of the home page.",
   openGraph: {
+    ...openGraphImage,
     title: "Open Graph Title  33333",
     description: "Open Graph Description",
-    images: [
-      {
-        url: "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
-        width: 800,
-        height: 600,
-        alt: "Open Graph Image",
-      },
-    ],
+    // images: [
+    //   {
+    //     url: "",
+    //     width: 800,
+    //     height: 600,
+    //     alt: "Open Graph Image",
+    //   },
+    // ],
   },
 };
 
