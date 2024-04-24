@@ -11,20 +11,20 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Home Page Title",
   description: "Description of the home page.",
-  openGraph: {
-    title: "Open Graph Title",
-    description: "Open Graph Description",
-    images: [
-      {
-        url: "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
-        width: 800,
-        height: 600,
-        alt: "Open Graph Image",
-      },
-      // Add more images as needed
-    ],
-    // Add more OG properties as needed
-  },
+  // openGraph: {
+  //   title: "Open Graph Title",
+  //   description: "Open Graph Description",
+  //   images: [
+  //     {
+  //       url: "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+  //       width: 800,
+  //       height: 600,
+  //       alt: "Open Graph Image",
+  //     },
+
+  //   ],
+
+  // },
 };
 
 export default function RootLayout({
@@ -34,7 +34,8 @@ export default function RootLayout({
 }>) {
   const title = "Home Page Title";
   const description = "Description of the home page.";
-  const imageUrl = "https://www.pexels.com/search/beautiful/";
+  const imageUrl =
+    "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png";
   return (
     <html lang="en">
       <CustomHead title={title} description={description} imageUrl={imageUrl} />
