@@ -12,6 +12,7 @@ export default function Home() {
     <>
       <CustomHead title={title} description={description} imageUrl={imageUrl} />
       <main className="h-full w-full">
+        <p>I'M bhautik</p>
         <div className="flex flex-col  gap-20">
           <Hero />
           <Encryption />
