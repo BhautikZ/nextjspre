@@ -40,10 +40,10 @@ export default function RootLayout({
     <html lang="en">
       <CustomHead title={title} description={description} imageUrl={imageUrl} />
       <body className={`${inter.className} bg-[#030014] overflow-x-hidden overflow-y-scroll`}>
-        {/* <Navbar />
-        <StarsCanvas /> */}
+        <Navbar />
+        <StarsCanvas />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

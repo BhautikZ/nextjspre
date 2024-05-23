@@ -12,13 +12,11 @@ export default function Home() {
     <>
       <CustomHead title={title} description={description} imageUrl={imageUrl} />
       <main className="h-full w-full">
-        <p className="bg-white"> hello</p>
-
-        {/* <div className="flex flex-col  gap-20">
-        <Hero />
-        <Encryption />
-        <Projects />
-      </div> */}
+        <div className="flex flex-col  gap-20">
+          <Hero />
+          <Encryption />
+          <Projects />
+        </div>
       </main>
     </>
   );
